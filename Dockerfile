@@ -14,7 +14,7 @@ RUN go mod download
 RUN go build -o main .
 
 # Указываем порт, который будет использоваться приложением
-EXPOSE 3000
+EXPOSE 3000 
 
 # Запускаем приложение
 CMD ["./main"]
